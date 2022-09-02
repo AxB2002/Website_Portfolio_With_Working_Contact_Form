@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AxB2002</title>
     <!-- ====== LINK TO CSS START ====== -->
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
     <!-- ====== LINK TO CSS END ====== -->
+    <!-- ====== LINK SWIPER CSS START ====== -->
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <!-- ====== LINK SWIPER CSS END ====== -->
     <!-- ====== BOX ICONS START ====== -->
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel="stylesheet">
     <!-- ====== BOX ICONS END ====== -->
@@ -83,7 +86,7 @@
                     </a>
             </div>
             <div class="about-text">
-                <p>Hello! I'm Adam Brillon. Web Developer, Graphics Designer and Cyber Security.</p>
+                <p>Hello! I'm Adam Brillon. French Canadian Web Developer, Graphics Designer and Cyber Security.</p>
                 <p>My expertise is to create and website design, graphic design and many more. Also, i currently study to become a Software Developer, Project Manager & Consultant in the future...</p>
                 <p>Get your project book with the contact button.</p>
             </div>
@@ -179,7 +182,12 @@
                     <img src="./img/portfolio-6.jpg" alt="" class="portfolio-img">
                     <!-- ====== OVERLAY START ====== -->
                     <div class="portfolio-overlay">
-                        <h2>Python Games and Tournament Tracker</h2>
+                        <h2>Python Games
+                            <br>
+                            &
+                            <br>
+                            Tournament Tracker
+                        </h2>
                         <a href="#">
                             <i class="bx bxl-python"></i>
                         </a>
@@ -196,12 +204,113 @@
     <!-- ====== SERVICES END ====== -->
     <!-- ====== PROJECTS START ====== -->
     <section class="projects container" id="projects">
-        ***** TIME: 38min41seconds *****
+        <!-- ====== HEADING PROJECTS START ====== -->
+        <h2 class="heading">Porjects</h2>
+        <!-- ====== HEADING PROJECTS END ====== -->
+        <!-- ====== PROJECTS CONTENT START ====== -->
+        <div class="projects-content">
+            <div class="project-box">
+                <h2>285+</h2>
+                <span>Projects Completed</span>
+            </div>
+            <div class="project-box">
+                <h2>190+</h2>
+                <span>Websites Develop</span>
+            </div>
+            <div class="project-box">
+                <h2>250+</h2>
+                <span>Happy Clients</span>
+            </div>
+        </div>
+        <!-- ====== PROJECTS CONTENT END ====== -->
     </section>
-    <!-- ====== PROJECT SEND ====== -->
+    <!-- ====== PROJECTS END ====== -->
+    <!-- ====== REVIEW START ====== -->
+    <div class="container reviews" id="reviews">
+        <!-- ====== HEADING REVIEW START ====== -->
+        <h2 class="heading">Reviews</h2>
+        <!-- ====== HEADING REVIEW END ====== -->
+        <!-- ====== REVIEW CONTENT START ====== -->
+        <div class="reviews-content swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <!-- ====== REVIEW BOX START ====== -->
+                    <div class="review-box">
+                        <i class="bx bxs-quote-right"></i>
+                            <p class="review-text">
+                            Absolutely amazing so far. Adam and his team are one of a kind. I would recommend this team to anyone I know. Their work ethic is unbeatable and he never fails to respond at a moment's notice. I would rather have Adam over any other developer out there! You will not regret choosing him for your next website/web application!
+                            </p>
+                            <div class="review-profile">
+                                <h2>François Legault</h2>
+                                <span>From Québec, Canada</span>
+                                <img src="./img/legault.png" alt="">
+                            </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="review-box">
+                            <i class="bx bxs-quote-right"></i>
+                                <p class="review-text">
+                                Quick and realiable. Their team is very thorough and easy to work with.
+                                </p>
+                                <div class="review-profile">
+                                    <h2>Emmanuel Macron</h2>
+                                    <span>From Paris, France</span>
+                                    <img src="./img/macron.jpg" alt="">
+                                </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="review-box">
+                            <i class="bx bxs-quote-right"></i>
+                                <p class="review-text">
+                                Adam did an amazing job on our project! He understood exactly what we were looking for using our examples and delivered a top tier product in less than the time he gave us! It was quick to get the order started and he is very responsive so we always know we're in good hands!
+                                </p>
+                                <div class="review-profile">
+                                    <h2>Jennifer Lawrence</h2>
+                                    <span>From USA</span>
+                                    <img src="./img/jennifer.jpg" alt="">
+                                </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination-bullet"></div>
+                <!-- ====== REVIEW BOX END ====== -->
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- ====== REVIEW CONTENT END ====== -->
+    </section>
+    <!-- ====== REVIEW END ====== -->
+    <!-- ====== CONTACT FORM START ====== -->
+    <section class="contact container" id="contact">
+        <!-- ====== HEADING CONTACT START ====== -->
+        <h2 class="heading">Contact</h2>
+        <!-- ====== HEADING CONTACT END ====== -->
+        <!-- ====== FORM START ====== -->
+        <form action="" class="contact-form" id="contact-form">
+            <input type="text" placeholder="Your Name" class="name" required>
+            <input type="email" name="" id="" placeholder="Email adress..." class="email" required>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Write message here..." class="message" required></textarea>
+            <input type="submit" value="Send" class="send-btn">
+        </form>
+        <!-- ====== FORM END ====== -->
 
-    <!-- ====== LINK TO JS START ====== -->
-    <script src="main.js"></script>
-    <!-- ====== LINK TO JS END ====== -->
+    </section>
+    <!-- ====== CONTACT FORM END ====== -->
+
+
+    <!-- ====== LINK EMAIL JS ====== -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm@emailjs/browser@3/dist/email.min.js"></script>
+    <!-- ====== LINK SWEET ALERT JS ====== -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+        emailjs.init("Nz6CQa7lmu_tFkvJz");
+        })();
+        </script>
+    <!-- ====== LINK SWIPER JS ====== -->
+    <script src="./js/swiper-bundle.min.js"></script>
+    <!-- ====== LINK TO JS ====== -->
+    <script src="./js/main.js"></script>
 </body>
 </html>
